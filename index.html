@@ -181,6 +181,12 @@
   footer{padding:30px 0 40px;}
   footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink-soft);}
   footer a{color:var(--ink-soft);}
+
+  .tc-badge-row{display:flex;justify-content:center;margin-top:28px;}
+  .tc-badge{display:inline-flex;align-items:center;gap:9px;background:#09090b;padding:10px 16px;border-radius:9px;border:1px solid rgba(255,255,255,.12);box-shadow:0 1px 2px rgba(9,9,11,.25),0 4px 14px rgba(9,9,11,.16);text-decoration:none;transition:transform .15s ease,box-shadow .15s ease;}
+  .tc-badge:hover{transform:translateY(-1px);box-shadow:0 2px 4px rgba(9,9,11,.25),0 8px 22px rgba(9,9,11,.22);}
+  .tc-badge .k{font:500 10px/1 Inter,sans-serif;letter-spacing:.14em;color:#a1a1aa;text-transform:uppercase;}
+  .tc-badge .n{font:800 12.5px/1 Archivo,Inter,sans-serif;letter-spacing:.1em;color:#fff;text-transform:uppercase;}
 </style>
 </head>
 <body>
@@ -358,6 +364,18 @@
     <span>314 S Campbell Ave, Springfield, MO 65806 &middot; 2,150 SF retail / office for lease</span>
     <span>Next door: <a href="https://www.310scampbell.com">310 S Campbell &mdash; 4,000 SF also for lease</a></span>
     <span>All information deemed reliable but not guaranteed. Tenant to verify.</span>
+  </div>
+  <div class="tc-badge-row">
+    <a class="tc-badge" href="https://www.usetoolcrate.com" target="_blank" rel="noopener" aria-label="Created by ToolCrate — opens in a new window">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M8 6V4.6c0-.6.45-1.1 1-1.1h6c.55 0 1 .5 1 1.1V6" stroke="#f97316" stroke-width="2"/>
+        <rect x="3.2" y="6.2" width="17.6" height="14.6" rx="2" stroke="#f97316" stroke-width="2"/>
+        <path d="M3.5 11h17" stroke="#f97316" stroke-width="2"/>
+        <path d="M9 11.5v9M15 11.5v9" stroke="#f97316" stroke-width="1.5" opacity=".55"/>
+      </svg>
+      <span class="k">Created by</span>
+      <span class="n">ToolCrate</span>
+    </a>
   </div>
 </footer>
 
