@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>314 S Campbell Ave — 2,150 SF Downtown Springfield Storefront for Lease</title>
+<meta name="description" content="An 1884 storefront on S Campbell Ave in downtown Springfield: ~2,150 SF of open retail floor, tall display windows, basement storage at no extra rent. $13/SF/yr modified gross. Available December 2026.">
+<meta property="og:title" content="314 S Campbell Ave — 2,150 SF Downtown Springfield Storefront for Lease">
+<meta property="og:description" content="An 1884 storefront on S Campbell Ave in downtown Springfield: ~2,150 SF of open retail floor, tall display windows, basement storage at no extra rent. $13/SF/yr modified gross. Available December 2026.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.314scampbell.com/">
+<meta property="og:image" content="https://www.314scampbell.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f4f1e9;      /* page background */
+    --band:#edeadf;       /* soft band / stat cards */
+    --white:#fbfaf6;      /* white band */
+    --ink:#20231e;        /* near-black text */
+    --ink-soft:#4b4f46;
+    --sage:#7a8a63;       /* headline accent green */
+    --pine:#48513e;       /* dark green CTA background */
+    --pine-deep:#3c4433;  /* buttons */
+    --line:#dcd8c9;
+    --cream-btn:#f8f4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Inter','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.6;
+    font-size:16px;
+  }
+  h1,h2,h3,.display{
+    font-family:'Archivo','Inter',sans-serif;
+    font-weight:900;
+    letter-spacing:-.015em;
+    line-height:1.05;
+  }
+  .mono{
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+    font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:0 32px;}
+  a{color:inherit;}
+
+  /* Header row */
+  .site-head{padding:34px 0 22px;}
+  .site-head .wrap{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;}
+  .site-head .brand{font-family:'Archivo';font-weight:900;font-size:20px;}
+  .site-head .loc{font-size:13.5px;color:var(--ink-soft);display:flex;align-items:center;gap:6px;}
+  .site-head .loc svg{width:14px;height:14px;flex:none;}
+
+  /* Hero */
+  .hero-grid{display:grid;grid-template-columns:1.08fr 1fr;gap:28px;align-items:stretch;}
+  @media(max-width:860px){.hero-grid{grid-template-columns:1fr;}}
+  .hero-photo,.ph{
+    background:linear-gradient(160deg,#cdc7b2,#aaa389);
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    color:#5f5a48;font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;
+    font-weight:600;padding:16px;min-height:300px;
+    position:relative;overflow:hidden;
+  }
+  .hero-photo img,.ph img{
+    position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;
+  }
+  .hero-copy h1{font-size:clamp(40px,5.6vw,64px);}
+  .hero-copy h1 .accent{color:var(--sage);}
+  .hero-copy p{margin-top:20px;font-size:16.5px;color:var(--ink-soft);max-width:46ch;}
+  .hero-mini{margin-top:24px;min-height:150px !important;}
+
+  /* Stat band */
+  .stats{margin-top:28px;}
+  .stats .grid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--line);
+    border:1px solid var(--line);
+  }
+  @media(max-width:860px){.stats .grid{grid-template-columns:repeat(2,1fr);}}
+  .stat{background:var(--band);padding:22px 22px 18px;}
+  .stat .big{font-family:'Archivo';font-weight:900;font-size:22px;letter-spacing:-.01em;}
+  .stat .small{font-size:13px;color:var(--ink-soft);margin-top:4px;}
+
+  /* Buttons */
+  .cta-row{display:flex;gap:14px;margin-top:26px;flex-wrap:wrap;}
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;
+    font-weight:600;font-size:15px;text-decoration:none;
+    padding:14px 24px;border:1px solid var(--pine-deep);
+    transition:all .15s ease;border-radius:2px;
+  }
+  .btn-solid{background:var(--pine-deep);color:var(--cream-btn);}
+  .btn-solid:hover{background:#2f3728;}
+  .btn-outline{background:transparent;color:var(--ink);border-color:#b9b5a4;}
+  .btn-outline:hover{border-color:var(--ink);}
+  .btn-cream{background:var(--cream-btn);color:var(--ink);border-color:var(--cream-btn);}
+  .btn-cream:hover{background:#fff;}
+  .btn-ghostline{background:transparent;color:var(--cream-btn);border-color:#7d876c;}
+  .btn-ghostline:hover{border-color:var(--cream-btn);}
+
+  section{padding:76px 0;}
+
+  /* Uses / tabs */
+  .uses h2{font-size:clamp(30px,4vw,42px);}
+  .uses .intro{margin-top:16px;color:var(--ink-soft);max-width:62ch;}
+  .tabs{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap;}
+  .tab{
+    font-weight:600;font-size:14.5px;padding:11px 20px;cursor:pointer;
+    background:transparent;border:1px solid #c4c0af;color:var(--ink);border-radius:2px;
+    font-family:inherit;transition:all .15s ease;
+  }
+  .tab:hover{border-color:var(--ink);}
+  .tab.active{background:var(--pine-deep);border-color:var(--pine-deep);color:var(--cream-btn);}
+  .panel{display:none;margin-top:34px;grid-template-columns:1fr 1.05fr;gap:44px;align-items:start;}
+  .panel.active{display:grid;}
+  @media(max-width:860px){.panel.active{grid-template-columns:1fr;}}
+  .panel .ph{min-height:320px;}
+  .panel h3{font-size:clamp(22px,2.6vw,30px);line-height:1.15;}
+  .panel .blurb{margin-top:16px;color:var(--ink-soft);}
+  .checklist{list-style:none;margin-top:20px;}
+  .checklist li{
+    padding:13px 0 13px 26px;border-top:1px solid var(--line);position:relative;font-size:15.5px;
+  }
+  .checklist li:last-child{border-bottom:1px solid var(--line);}
+  .checklist li:before{content:"—";position:absolute;left:0;color:var(--sage);}
+
+  /* Gallery */
+  .gallery{background:var(--band);}
+  .gallery h2{font-size:clamp(30px,4vw,42px);}
+  .gallery .intro{margin-top:14px;color:var(--ink-soft);max-width:52ch;}
+  .g-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:38px;}
+  @media(max-width:860px){.g-grid{grid-template-columns:1fr;}}
+  .g-item .ph{min-height:210px;aspect-ratio:4/3;}
+  .g-item figcaption{font-size:13px;color:var(--ink-soft);margin-top:9px;}
+
+  /* Particulars */
+  .particulars{background:var(--white);}
+  .particulars .wrap{display:grid;grid-template-columns:.9fr 1.25fr;gap:56px;align-items:start;}
+  @media(max-width:860px){.particulars .wrap{grid-template-columns:1fr;}}
+  .particulars h2{font-size:clamp(30px,4vw,42px);}
+  .particulars .intro{margin-top:16px;color:var(--ink-soft);}
+  .rentmath{
+    background:var(--paper);border:1px solid var(--line);
+    padding:22px 24px;margin-top:28px;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;font-size:13.5px;
+  }
+  .rentmath .rm-title{letter-spacing:.08em;margin-bottom:12px;background:#e6e2d2;display:inline-block;padding:1px 4px;}
+  .rentmath .row{display:flex;justify-content:space-between;gap:16px;padding:4px 0;}
+  .rentmath .row .v{white-space:nowrap;}
+  .spec{width:100%;border-collapse:collapse;}
+  .spec td{padding:15px 8px 15px 0;border-bottom:1px solid var(--line);vertical-align:top;font-size:15.5px;}
+  .spec tr:first-child td{border-top:1px solid var(--line);}
+  .spec td.k{width:36%;padding-top:17px;}
+
+  /* CTA */
+  .cta{background:var(--pine);color:var(--cream-btn);}
+  .cta .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center;}
+  @media(max-width:860px){.cta .wrap{grid-template-columns:1fr;}}
+  .cta h2{font-size:clamp(34px,4.6vw,52px);color:#fbf8ee;}
+  .cta p{margin-top:18px;color:#d6d9c8;max-width:52ch;}
+  .cta .cta-row{margin-top:28px;}
+  .broker-card{
+    background:rgba(255,255,255,.05);border:1px solid #66705a;padding:26px 28px;
+  }
+  .broker-top{display:flex;gap:16px;align-items:center;}
+  .broker-avatar{
+    width:58px;height:58px;flex:none;background:#66705a;color:#f3efe0;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Archivo';font-weight:900;font-size:20px;
+  }
+  .broker-avatar img{width:100%;height:100%;object-fit:cover;display:block;}
+  .broker-top .n{font-weight:700;font-size:17px;color:#fbf8ee;}
+  .broker-top .f{font-size:14px;color:#cfd2bf;}
+  .broker-top a{color:#cfd2bf;font-size:14px;}
+  .broker-card .note{margin-top:16px;font-size:14.5px;color:#c5c9b4;line-height:1.65;}
+
+  footer{padding:30px 0 40px;}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink-soft);}
+  footer a{color:var(--ink-soft);}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <div class="brand">314 S Campbell Ave</div>
+    <div class="loc">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.1-7-11a7 7 0 1 1 14 0c0 5.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+      Downtown Springfield, Missouri
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding-top:8px;">
+  <div class="wrap hero-grid">
+    <div class="hero-photo"><img src="img/storefront.jpg" alt="The 314 S Campbell storefront and display window from the sidewalk"></div>
+    <div class="hero-copy">
+      <h1>2,150 square feet <span class="accent">of downtown,</span> sized just right.</h1>
+      <p>The south bay of the same 1884 storefront block as 310 next door: one open retail floor with tall glass on the sidewalk, downtown character intact, and basement storage thrown in. Big enough to merchandise properly, small enough that the rent works.</p>
+      <div class="ph hero-mini"><img src="img/case.jpg" alt="Inside the space: wood floors, display case and french doors" style="object-position:center 35%;"></div>
+    </div>
+  </div>
+  <div class="wrap stats">
+    <div class="grid">
+      <div class="stat"><div class="big">~2,150 SF</div><div class="small">ground floor, open plan</div></div>
+      <div class="stat"><div class="big">$13 / SF / yr</div><div class="small">&asymp; $2,329 per month</div></div>
+      <div class="stat"><div class="big">Modified gross</div><div class="small">2&ndash;5 year term</div></div>
+      <div class="stat"><div class="big">December 2026</div><div class="small">basement included</div></div>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-solid" href="#contact">Schedule a walkthrough <span aria-hidden="true">&#8599;</span></a>
+      <a class="btn btn-outline" href="#particulars">See the particulars</a>
+    </div>
+  </div>
+</section>
+
+<section class="uses">
+  <div class="wrap">
+    <h2>What would you put in it?</h2>
+    <p class="intro">One open room with real windows on Campbell &mdash; the kind of space that adapts to the business, not the other way around.<br>Pick the closest thing to yours and see what is already here for you.</p>
+
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-panel="p1">Boutique or shop</button>
+      <button class="tab" data-panel="p2">Studio or gallery</button>
+      <button class="tab" data-panel="p3">Salon or wellness</button>
+      <button class="tab" data-panel="p4">Office or showroom</button>
+    </div>
+
+    <div class="panel active" id="p1">
+      <div class="ph"><img src="img/floor.jpg" alt="The full retail floor under the pressed-tin ceiling" style="object-position:center 30%;"></div>
+      <div>
+        <h3>A proven boutique floor with its own window stage</h3>
+        <p class="blurb">This bay has run as an independent retail shop for years. The floor is one open run from the front glass back, so racks, displays and a counter can go wherever the concept wants them.</p>
+        <ul class="checklist">
+          <li>Display window and mosaic-tile entry on Campbell Ave</li>
+          <li>Original pressed-tin ceiling and wood floor</li>
+          <li>Open plan &mdash; merchandise it your way</li>
+          <li>Basement below for stock, no rent charged on it</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel" id="p2">
+      <div class="ph"><img src="img/wall.jpg" alt="A long open wall with room for work or hanging art"></div>
+      <div>
+        <h3>Working light in front, working room in back</h3>
+        <p class="blurb">The storefront glass gives the front half of the floor natural light most studios pay extra for, and the open back half takes benches, easels, or a small classroom without a wall in the way.</p>
+        <ul class="checklist">
+          <li>Natural light through the full storefront</li>
+          <li>Open floor for workspaces or hanging walls</li>
+          <li>Basement storage for materials and inventory</li>
+          <li>Downtown First Friday Art Walk crowd at the door</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel" id="p3">
+      <div class="ph"><img src="img/doors.jpg" alt="French doors to the back of the space"></div>
+      <div>
+        <h3>Room for chairs, treatment space, and a real waiting area</h3>
+        <p class="blurb">At ~2,150 SF the bay splits naturally into a front-of-house and service area &mdash; retail or reception up front by the glass, services in the quieter back half.</p>
+        <ul class="checklist">
+          <li>Layout suits front retail + back services</li>
+          <li>Storefront presence clients can find easily</li>
+          <li>Rear access behind the building</li>
+          <li>Ask about build-out &mdash; the landlord will listen</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel" id="p4">
+      <div class="ph"><img src="img/entry.jpg" alt="The storefront and mosaic-tile entry on Campbell Ave"></div>
+      <div>
+        <h3>A downtown address without downtown-tower rent</h3>
+        <p class="blurb">Put a small team, a client-facing showroom, or a hybrid office behind historic glass on Campbell. The open plan takes desks and meeting space in any arrangement, and the address does some marketing on its own.</p>
+        <ul class="checklist">
+          <li>Street-level identity and signage exposure</li>
+          <li>Open plan for desks, displays, or both</li>
+          <li>Basement for files, samples and storage</li>
+          <li>Coffee, lunch and after-work spots all walkable</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="wrap">
+    <h2>The room, honestly</h2>
+    <p class="intro">Photographed mid-business &mdash; the current shop runs through November. The pressed-tin ceiling, wood floor and storefront glass are what you are leasing; the paint color is up to you.</p>
+    <div class="g-grid">
+      <figure class="g-item"><div class="ph"><img src="img/floor.jpg" alt="The main floor front to back, pressed-tin ceiling above" style="object-position:center 20%;"></div><figcaption>The main floor, front to back &mdash; original pressed-tin ceiling and wood floor</figcaption></figure>
+      <figure class="g-item"><div class="ph"><img src="img/entry.jpg" alt="Mosaic tile entry at the storefront" style="object-position:80% 60%;"></div><figcaption>The mosaic-tile entry, straight off the Campbell Ave sidewalk</figcaption></figure>
+      <figure class="g-item"><div class="ph"><img src="img/storefront.jpg" alt="The storefront window from the sidewalk" style="object-position:center 12%;"></div><figcaption>The display window doing its job on a weekday morning</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="particulars" id="particulars">
+  <div class="wrap">
+    <div>
+      <h2>The particulars</h2>
+      <p class="intro">Straight from the listing, no rounding. If a number matters to your plan, ask and we will put it in writing.</p>
+      <div class="rentmath">
+        <div class="rm-title mono">Rent math</div>
+        <div class="row"><span>2,150 SF &times; $13.00</span><span class="v">$27,950 / yr</span></div>
+        <div class="row"><span>&divide; 12 months</span><span class="v">$2,329 / mo</span></div>
+        <div class="row"><span>basement storage</span><span class="v">$0</span></div>
+      </div>
+    </div>
+    <div>
+      <table class="spec">
+        <tr><td class="k mono">Address</td><td>314 S Campbell Ave, Springfield, MO 65806</td></tr>
+        <tr><td class="k mono">Space available</td><td>~2,150 SF on the ground floor</td></tr>
+        <tr><td class="k mono">Rent</td><td>$13.00 / SF / year &mdash; about $2,329 per month</td></tr>
+        <tr><td class="k mono">Lease type</td><td>Modified gross</td></tr>
+        <tr><td class="k mono">Term</td><td>2&ndash;5 years, negotiable</td></tr>
+        <tr><td class="k mono">Available</td><td>December 2026 &mdash; showing by appointment now</td></tr>
+        <tr><td class="k mono">Basement</td><td>Included for storage &mdash; no rent charged on it</td></tr>
+        <tr><td class="k mono">Building</td><td>Built 1884, updated in the early 2000s &middot; storefront retail / office &middot; zoned INC</td></tr>
+        <tr><td class="k mono">Who pays what</td><td>Tenant covers interior maintenance and repairs; landlord covers building insurance and real estate taxes</td></tr>
+        <tr><td class="k mono">Next door</td><td><a href="https://www.310scampbell.com">310 S Campbell &mdash; 4,000 SF also available</a></td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="wrap">
+    <div>
+      <h2>Walk the floor before the sign goes up.</h2>
+      <p>Ten minutes inside tells you more than any listing photo. Call or email to set a time &mdash; evenings and weekends are fine.</p>
+      <div class="cta-row">
+        <a class="btn btn-cream" href="tel:+14178481842"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.6 2z"/></svg> 417-848-1842</a>
+        <a class="btn btn-ghostline" href="mailto:todd@chambersrealestate.com"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6L22 7"/></svg> Email Todd</a>
+      </div>
+    </div>
+    <div class="broker-card">
+      <div class="broker-top">
+        <div class="broker-avatar"><img src="img/todd.jpg" alt="Todd Chambers"></div>
+        <div>
+          <div class="n">Todd Chambers, CCIM</div>
+          <div class="f">Chambers Real Estate Services, LLC</div>
+          <a href="mailto:todd@chambersrealestate.com">todd@chambersrealestate.com</a>
+        </div>
+      </div>
+      <p class="note">Listing contact for the space. Ask about term length, tenant improvements, and what the landlord will consider for a build-out.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>314 S Campbell Ave, Springfield, MO 65806 &middot; 2,150 SF retail / office for lease</span>
+    <span>All information deemed reliable but not guaranteed. Tenant to verify.</span>
+  </div>
+</footer>
+
+<script>
+  var tabs = document.querySelectorAll('.tab');
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(){
+      document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active');});
+      document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('active');});
+      t.classList.add('active');
+      document.getElementById(t.dataset.panel).classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
